@@ -3,6 +3,12 @@ import million from 'million/compiler';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: [
+      "media.discordapp.net",
+      "pbs.twimg.com",
+    ],
+  },
 };
  
 const millionConfig = {
