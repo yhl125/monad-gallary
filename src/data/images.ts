@@ -107,6 +107,22 @@ export const gifImages: Image[] = [
 
 export const memeImages: Image[] = [
   {
+    src: "https://pbs.twimg.com/media/GBZ49W9aYAAkj6K?format=jpg&name=large",
+    alt: "week11-1",
+  },
+  {
+    src: "https://pbs.twimg.com/media/GBZ5A9ka0AAQGU3?format=jpg&name=large",
+    alt: "week11-2",
+  },
+  {
+    src: "https://pbs.twimg.com/media/GBZ5DaNa4AAiC2t?format=jpg&name=large",
+    alt: "week11-3",
+  },
+  {
+    src: "https://pbs.twimg.com/media/GBZ5HQmagAASVZ_?format=jpg&name=large",
+    alt: "week11-4",
+  },
+  {
     src: "/meme/week10-1.jpeg",
     alt: "week10-1",
   },
@@ -275,6 +291,11 @@ interface DiscordImage {
 }
 
 export const tgSubmissionImages: DiscordImage[] = [
+  {
+    src: "https://media.discordapp.net/attachments/1062094341285347338/1183511741162868807/IMG_8983.png?ex=65889a33&is=65762533&hm=76dfdf02f5675e0be945b623b9839a559c4b6c113ba38f544d12b96a05840c8e&=&format=webp&quality=lossless&width=766&height=1242",
+    alt: "E3",
+    author: "E3",
+  },
   // 2023/12/10
   {
     src: "https://media.discordapp.net/attachments/1062094341285347338/1183424585811624106/IMG_3285.jpg?ex=65884908&is=6575d408&hm=b5231fa42a5ad4af8a371d5049b9a15f4d0195959470241c4fe4603cc0e50a97&=&format=webp&width=1066&height=1066",

@@ -4,9 +4,15 @@ import million from 'million/compiler';
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [
-      "media.discordapp.net",
-      "pbs.twimg.com",
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media.discordapp.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 'pbs.twimg.com',
+      },
     ],
   },
 };

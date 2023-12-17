@@ -15,7 +15,7 @@ import { useState } from "react";
 export function Gallery() {
   const [view, setView] = useState<
     "Media Kit" | "GIFs" | "Memes of the week" | "tg-submissions"
-  >("tg-submissions");
+  >("Memes of the week");
 
   return (
     <div className="p-6">
